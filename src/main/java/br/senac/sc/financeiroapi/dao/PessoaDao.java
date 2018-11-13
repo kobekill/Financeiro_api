@@ -19,10 +19,10 @@ public class PessoaDao extends Dao implements DaoI<Pessoa>{
     @Override
     public boolean salvar(Pessoa obj) {
         
-        msql = "INSERT INTO financeiro () VALUES "
+        msql = "INSERT INTO financeiro () VALUES ";
         
-        
-        
+        return true;
+
     }
 
     @Override
